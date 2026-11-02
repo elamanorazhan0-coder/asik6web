@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio - Assignment 6</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Task 1 -->
+  <header id="profile">
+    <h1>Welcome to My Portfolio</h1>
+    <h2 id="headline">Hi, I am Yelaman</h2>
+    <p class="intro">I am a student at Astana IT University. I like programming and learning new stuff.</p>
+    <button id="changeHeadline">Change headline</button>
+    <button id="lightBtn">Light theme</button>
+    <button id="darkBtn">Dark theme</button>
+  </header>
+
+  <!-- Task 2 -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I study computer science and want to become a developer.</p>
+    <p id="status">Currently learning jQuery!</p>
+    <ul class="facts">
+      <li>I like C++</li>
+      <li>I want to get an internship</li>
+      <li>I speak Russian and English</li>
+    </ul>
+    <button id="hideBtn">Hide</button>
+    <button id="showBtn">Show</button>
+    <button id="toggleBtn">Toggle</button>
+  </section>
+
+  <!-- Task 3 -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <img src="car-back.jpg" alt="my car from behind">
+    <img src="car-front.jpg" alt="my car from front">
+    <img src="wolf.jpg" alt="wolf">
+    <br>
+    <button id="fadeInBtn">Fade In</button>
+    <button id="fadeOutBtn">Fade Out</button>
+    <button id="fadeToggleBtn">Fade Toggle</button>
+  </section>
+
+  <!-- Task 4 -->
+  <section id="favorites">
+    <h2>My Favorites</h2>
+    <h3 class="title">My Favorite Music</h3>
+    <div class="panel">Lo-fi and some rock.</div>
+    <h3 class="title">My Favorite Movie</h3>
+    <div class="panel">Interstellar.</div>
+    <h3 class="title">My Favorite Subject</h3>
+    <div class="panel">Programming of course.</div>
+    <button id="openAll">Open all</button>
+    <button id="closeAll">Close all</button>
+  </section>
+
+  <!-- Task 5 -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul id="skillList">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>C++</li>
+    </ul>
+    <input type="text" id="skillInput" placeholder="New skill">
+    <button id="addSkill">Add Skill</button>
+    <button id="prependSkill">Prepend Skill</button>
+    <button id="removeSkill">Remove Skill</button>
+    <p id="skillError"></p>
+  </section>
+
+  <!-- Task 6 -->
+  <section id="links">
+    <h2>My Links</h2>
+    <a id="myLink" href="https://github.com/elamanorazhan0-coder" target="_blank">My GitHub</a>
+    <br><br>
+    <button id="changeLink">Change link</button>
+  </section>
+
+  <!-- Task 7 -->
+  <section id="formSection">
+    <h2>Contact</h2>
+    <form onsubmit="return false;">
+      <input type="text" id="nameInput" placeholder="Name">
+      <input type="email" id="emailInput" placeholder="Email">
+    </form>
+    <p>Name: <span id="nameOut"></span></p>
+    <p>Email: <span id="emailOut"></span></p>
+  </section>
+
+  <!-- Task 8 -->
+  <section id="bars">
+    <h2>Skill Bars</h2>
+    <div class="barName">HTML</div>
+    <div class="barBox"><div class="bar" data-width="90"></div></div>
+    <div class="barName">JavaScript</div>
+    <div class="barBox"><div class="bar" data-width="65"></div></div>
+    <div class="barName">C++</div>
+    <div class="barBox"><div class="bar" data-width="75"></div></div>
+    <button id="animateBtn">Animate My Skills</button>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
